@@ -288,13 +288,16 @@ const Dashboard = () => {
               maintainAspectRatio: false,
               scales: {
                 yAxes: {
-                  beginAtZero: true,
+                  // beginAtZero: true,
                   // grid: {
                   //     color: '#F0C3F2'
                   // },
                   // ticks: {
                   //     color: '#F0C3F2'
                   // }
+                  ticks: {
+                    display: false
+                  }
                 },
               },
             }}
@@ -317,6 +320,7 @@ const Dashboard = () => {
                   ],
                   borderWidth: 1,
                   label: "₹",
+                  backgroundColor: "#F0C3F1",
                 },
               ],
             }}
