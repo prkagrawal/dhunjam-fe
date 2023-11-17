@@ -165,8 +165,8 @@ const Dashboard = () => {
                 type="radio"
                 name="charge"
                 id="charge"
-                // value="yes"
-                defaultChecked={formValues.chargeCustomers ? true : false}
+                checked={formValues.chargeCustomers}
+                // defaultChecked={formValues.chargeCustomers}
                 onChange={(e) => {
                   setFormValues({
                     ...formValues,
@@ -183,7 +183,8 @@ const Dashboard = () => {
                 name="charge"
                 id="charge"
                 // value="no"
-                defaultChecked={formValues.chargeCustomers ? false : true}
+                checked={!formValues.chargeCustomers}
+                // defaultChecked={formValues.chargeCustomers}
                 onChange={(e) => {
                   setFormValues({
                     ...formValues,
