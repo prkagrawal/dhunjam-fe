@@ -46,7 +46,7 @@ input {
 
 input:disabled {
     /* style it to look disabled and greyed out */
-    background-color: #333333 !important;
+    background-color: #333333;
     color: #777777;
     cursor: not-allowed;
 }
