@@ -316,7 +316,7 @@ const Dashboard = () => {
                     formValues.regD,
                   ],
                   borderWidth: 1,
-                  label: "Amount",
+                  label: "₹",
                 },
               ],
             }}
