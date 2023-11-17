@@ -1,0 +1,19 @@
+{
+    "status": 200,
+    "response": "Success",
+    "data": {
+        "id": 4,
+        "name": "Diona",
+        "location": "Jaipur",
+        "charge_customers": true,
+        "amount": {
+            "category_6": 100.0,
+            "category_7": 80.0,
+            "category_8": 60.0,
+            "category_9": 40.0,
+            "category_10": 20.0
+        }
+    },
+    "server_err_msg": null,
+    "ui_err_msg": null
+}

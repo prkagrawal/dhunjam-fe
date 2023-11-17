@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Form from "./components/AdminLogin";
+// import AdminContext from './context/AdminContext';
+import { Route, Routes } from "react-router-dom";
+import Dashboard from "./components/DashBoard";
 
 function App() {
+  const [admin, setAdmin] = React.useState(null);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <AdminContext.Provider value={{admin, setAdmin}}> */}
+      <Routes>
+        <Route path="/login" element={<Form />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+      {/* </AdminContext.Provider> */}
     </div>
   );
 }

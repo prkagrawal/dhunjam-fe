@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.submit-btn {
+  width: 600px;
+  margin: 20px 0;
+  /* padding: 12px 18px;
+  font-size: 22px; */
+  color: white;
+  background-color: #6741D9;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.submit-btn:hover {
+  border: 1px solid #F0C3F1;
+  /* color: black; */
+}
+
+.submit-btn:disabled {
+  background-color: #333333;
+  color: white;
+  cursor: not-allowed;
+}
+
+.form-submit input {
+  width: 700px;
+  margin-top: 40px;
+}
+
+.form-submit input :disabled {
+  background-color: #333333 !important;
+  color: white;
+  cursor: not-allowed;
+}
