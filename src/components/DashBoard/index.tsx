@@ -321,6 +321,7 @@ const Dashboard = () => {
                   borderWidth: 1,
                   label: "₹",
                   backgroundColor: "#F0C3F1",
+                  barThickness: 20,
                 },
               ],
             }}

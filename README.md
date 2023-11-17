@@ -1,5 +1,3 @@
-The styling for graph on dashboard if left, due to lack of proper documentation in chartjs I still have to figure out how to change width of bars in bar chart
-
 ## Available Scripts
 
 In the project directory, you can run:
